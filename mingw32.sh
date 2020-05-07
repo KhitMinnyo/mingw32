@@ -14,7 +14,7 @@ else
 fi
 echo "Now, the progress of adding sources. Don't worry, it is secure."
 #for Debian sources
-#echo "deb http://ftp.de.debian.org/debian jessie main" >> /etc/apt/sources.list
+echo "deb http://ftp.de.debian.org/debian jessie main" >> /etc/apt/sources.list
 #Updating
 echo "Now, updating "
 apt update
